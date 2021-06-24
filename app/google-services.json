@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966738156571",
+    "project_id": "travel-guide-5fab1",
+    "storage_bucket": "travel-guide-5fab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966738156571:android:c9569c3d0ea226cd746cbe",
+        "android_client_info": {
+          "package_name": "arunreddy.com.travelguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966738156571-vt0hucjvotgtib7qdj2iilg3talhh56s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUgT8MoLM_cI9PxRNqND7WS8_MCbzoF3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966738156571-vt0hucjvotgtib7qdj2iilg3talhh56s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

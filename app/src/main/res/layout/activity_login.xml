@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/travel_pic"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".login">
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#EEF1EF"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#EEF1EF"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        >
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/login_signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sign in"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="#C15C3C" />
+
+            <Button
+                android:id="@+id/login_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C15C3C"
+                android:text="sign up"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="FORGOT PASSWORD?" />
+</LinearLayout>
